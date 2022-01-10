@@ -1,0 +1,129 @@
+package dao.sh;
+
+import java.util.Date;
+
+public class Board {
+	private String b_type; // 게시물 유형
+	private int b_num; // 게시글 번호
+	private String id; // 아이디
+	private Date uploaddate; // 등록일
+	private String content; // 내용
+	private String title; // 제목
+	private String imagepath; // 이미지 경로
+	private String views; // 조회수
+	private String b_total; // 총 게시글
+	private String noti_chk; // 공지 여부
+	private String commnum; // 댓글 번호
+	private String commcontent; // 댓글 내용
+	private Date commdate; // 댓글 날짜
+	private int re_level; 
+	private int re_step;
+	private int ref;
+	private String stdnum; // 스터디 번호(FK)
+	
+	public String getB_type() {
+		return b_type;
+	}
+	public void setB_type(String b_type) {
+		this.b_type = b_type;
+	}
+	public int getB_num() {
+		return b_num;
+	}
+	public void setB_num(int b_num) {
+		this.b_num = b_num;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public Date getUploaddate() {
+		return uploaddate;
+	}
+	public void setUploaddate(Date uploaddate) {
+		this.uploaddate = uploaddate;
+	}
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getImagepath() {
+		return imagepath;
+	}
+	public void setImagepath(String imagepath) {
+		this.imagepath = imagepath;
+	}
+	public String getViews() {
+		return views;
+	}
+	public void setViews(String views) {
+		this.views = views;
+	}
+	public String getB_total() {
+		return b_total;
+	}
+	public void setB_total(String b_total) {
+		this.b_total = b_total;
+	}
+	public String getNoti_chk() {
+		return noti_chk;
+	}
+	public void setNoti_chk(String noti_chk) {
+		this.noti_chk = noti_chk;
+	}
+	public String getCommnum() {
+		return commnum;
+	}
+	public void setCommnum(String commnum) {
+		this.commnum = commnum;
+	}
+	public String getCommcontent() {
+		return commcontent;
+	}
+	public void setCommcontent(String commcontent) {
+		this.commcontent = commcontent;
+	}
+	public Date getCommdate() {
+		return commdate;
+	}
+	public void setCommdate(Date commdate) {
+		this.commdate = commdate;
+	}
+	public int getRe_level() {
+		return re_level;
+	}
+	public void setRe_level(int re_level) {
+		this.re_level = re_level;
+	}
+	public int getRe_step() {
+		return re_step;
+	}
+	public void setRe_step(int re_step) {
+		this.re_step = re_step;
+	}
+	public int getRef() {
+		return ref;
+	}
+	public void setRef(int ref) {
+		this.ref = ref;
+	}
+	public String getStdnum() {
+		return stdnum;
+	}
+	public void setStdnum(String stdnum) {
+		this.stdnum = stdnum;
+	}
+	
+	
+	
+}

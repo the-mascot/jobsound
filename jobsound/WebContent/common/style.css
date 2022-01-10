@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+/* -----------header----------- 영역 */
+header {
+	margin-left: auto;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	position: relative;
+}
+
+fieldset {
+	border: none;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
+
+.img_logo {
+	position: absolute;
+	left: 15px;
+	margin-top: 40px;
+	width: 224px;
+	height: 98px;
+}
+
+.search_box {
+	width: 380px;
+	height: 40px;
+	border: 3px solid #9ACDE6;
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	padding: none;
+}
+
+.search_box input {
+	flex: 9;
+	height: 35px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+}
+
+.search_box button {
+	flex: 1;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	background: #9ACDE6;
+	position: relative;
+	left: 1px;
+	color: #ffffff;
+}
+
+
+
+/* -----------head_nav----------- 영역 */
+
+.head_nav {
+	color: black;
+	font-size: 18px;
+	font-family: 'jalnan';
+}
+
+/* -----------common----------- 영역 */
+main {
+	background-color: white;
+	min-height: 700px;
+	}
+	
+section, aside {
+	float: left;
+}
+
+
+aside {
+	width: 20%;
+}
+
+/* -----------section----------- 영역 */
+section {
+	width: 60%;
+	border-top: solid;
+	border-top-color: #9ACDE6;
+	border-top-width: 4;
+}
+
+.board_search {
+	float: right;
+	margin-right: 50px;
+	width: 250px;
+	height: 40px;
+	border: 0;
+}
+
+.board_search_parent::after {
+	display:block; 
+	clear:both; 
+	content:"";
+}
+
+.board_search_button {
+	background-color: #5798D7;
+	font-family: pretend;
+	font-size: 17px;
+	color: white;
+}
+
+.view_count {
+	width: 90px; 
+	float: right; 
+	font-size: 13px;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+
+.view_count_parent::after {
+	display:block; 
+	clear:both; 
+	content:"";
+}
+
+.board_table {
+	width: 90%;
+}
+
+.write_btn {
+	float: right;
+}
+
+.write_btn_parent::after {
+	display:block; 
+	clear:both; 
+	content:"";
+}
+
+.pagenav_a {
+	border: 0.1px solid rgba(65, 75, 70, 0.06);
+	color: #6c757d;
+}
+
+
+
+/* -----------left_side----------- 영역 */
+.side_nav {
+	color: black;
+	font-size: 18px;
+	font-family: 'jalnan';
+	text-align: center;
+}
+
+.side_login_c {
+	width: 85%;
+}
+
+/* -----------right_side----------- 영역 */
+.login_logo {
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 5%;
+	margin-bottom: 8%;
+}
+
+.login_id_in {
+	height: 40px;
+	border: 0;
+	outline: none;
+}
+
+.login_passwd_in {
+	height: 40px;
+	border: 0;
+	outline: none;
+}	
+
+.write_form {
+	min-height: 700px;
+	width: 80%;
+}
+
+/* -----------footer----------- 영역 */
+footer {
+	height:	80px;
+	clear: both;
+	}
+	
+.fot_nav {
+	font-size: 15px;
+}
+
+/* -----------외부 font----------- 영역 */
+@font-face {
+	font-family: 'jalnan';
+  	src: url("../common/fonts/Jalnan.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: pretend;
+	src: url("../common/fonts/Pretendard.woff2") format("woff2")
+}
+
+/* 배경민 */
+/* section */
+/* .board_table { */
+/* 	width: 90% !important; */
+/* } */
+
+/* .thum_title { */
+/* 	background-color: rgba(13, 110, 253, 0.1); */
+/* 	padding-top: 5px; */
+/* 	margin-top:10px !important; */
+/* 	width:91.6%; */
+/* } */
+
+
+
